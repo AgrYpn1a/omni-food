@@ -1,0 +1,27 @@
+{
+  "name": "omni-food",
+  "version": "1.0.0",
+  "description": "Omnifood website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack resources/js/app.js dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rastko1996/omni-food.git"
+  },
+  "author": "Rastko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rastko1996/omni-food/issues"
+  },
+  "homepage": "https://github.com/rastko1996/omni-food#readme",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.2.3"
+  }
+}
